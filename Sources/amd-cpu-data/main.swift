@@ -26,8 +26,8 @@ let maxFre = Float(frequencies.max()!)
 let output: [String: Any] = [
   "power": outputStr[0],
   "temperature": outputStr[1],
-  "mean-frequencie": meanFre,
-  "max-frequencie": maxFre,
+  "mean-frequency": meanFre,
+  "max-frequency": maxFre,
 ]
 let jsonData = try JSONSerialization.data(withJSONObject: output)
 if let JSONString = String(data: jsonData, encoding: String.Encoding.utf8) {
