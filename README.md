@@ -14,7 +14,7 @@ The data will be outputtet as JSON
 }
 ```
 
-Run (from source):
+## Run (from source):
 
 ``` sh
 git clone https://github.com/brorbw/amd-cpu-data
@@ -22,8 +22,7 @@ cd amd-cpu-data
 swift run
 ```
 
-Build and install:
-something like:
+## Build and install:
 ``` sh
 git clone https://github.com/brorbw/amd-cpu-data
 cd amd-cpu-data
