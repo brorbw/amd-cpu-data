@@ -14,15 +14,21 @@ The data will be outputtet as JSON
 }
 ```
 
-Usage:
+Run (from source):
 
 ``` sh
-swift run # in the directory
-# or
-swift build -c release --arch x86_64 # in the directory
+git clone https://github.com/brorbw/amd-cpu-data
+cd amd-cpu-data
+swift run
+```
 
-# "install" with something like
+Build and install:
+something like:
+``` sh
+git clone https://github.com/brorbw/amd-cpu-data
+cd amd-cpu-data
+swift build -c release --arch x86_64
 ln -s $(pwd)/.build/release/amd-cpu-data /usr/local/bin/amd-cpu-data
-or 
+# or much more ugly 
 export PATH=$PATH:$(pwd)/.build/release/
 ```
