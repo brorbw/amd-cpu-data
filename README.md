@@ -1,4 +1,4 @@
-# cpu-data
+# amd-cpu-data
 
 A very small application to talk to the "AMDRyzenCPUPowerManagement" kext for getting CPU wattage, temperature and frequency. Is more or less a copy of some of the code from [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) 
 
