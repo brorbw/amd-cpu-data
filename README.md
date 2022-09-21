@@ -31,3 +31,17 @@ ln -s $(pwd)/.build/release/amd-cpu-data /usr/local/bin/amd-cpu-data
 # or much more ugly 
 export PATH=$PATH:$(pwd)/.build/release/
 ```
+
+## Usage:
+
+``` sh
+$ amd-cpu-data
+{"max-frequencie":4187.861328125,"power":34.066860198974609,"temperature":46.000007629394531,"mean-frequencie":4146.97216796875}
+$ amd-cpu-data | jq
+{
+  "max-frequencie": 4187.861328125,
+  "power": 34.06686019897461,
+  "temperature": 46.00000762939453,
+  "mean-frequencie": 4146.97216796875
+}
+```
